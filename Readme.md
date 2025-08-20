@@ -117,14 +117,14 @@ Do you want to save this schedule as a CSV file? (yes/no): yes
 
 ✅ Schedule saved to schedule_June.csv
 ```
-✨ Features
+## ✨ Features
 ✅ Location-based sunrise/sunset calculation
 ✅ Balances outdoor vs indoor activities
 ✅ Encourages outdoor time → reduces childhood myopia risk
 ✅ Exports schedules to CSV for record-keeping
 ✅ Emoji-enhanced console output for readability
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 🌤️ Integrate real-time UV index APIs for more accurate risk assessment
 📱 Build a mobile/web dashboard for school admins
 🧠 Add machine learning to adapt schedules using weather/attendance data
@@ -132,6 +132,6 @@ Do you want to save this schedule as a CSV file? (yes/no): yes
 
 
 
-👩‍💻 Author
+## 👩‍💻 Author
 Supreet Kaur
 📧 supreetkaur0602@gmail.com
