@@ -78,43 +78,45 @@ The **SunSmart Scheduler** dynamically generates a monthly class timetable for g
 Clone the repo and install dependencies:  
 
 ```bash
-git clone https://github.com/Supreetkaur1/NoGlassesClasees.git
-cd NoGlassesClasees
-pip install -r requirements.txt
-▶️ Usage
-Run the scheduler:
+Enter your school city: Amritsar
+Enter your country: India
+Enter timezone (e.g., Asia/Kolkata): Asia/Kolkata
+Enter month (1-12): 6
+Enter grades (e.g., 1-5, 8, 10-12): 3
+Enter number of classes per day: 7
+Enter class length in minutes: 40
+Max consecutive outdoor classes allowed: 3
+Enter number of sections in Grade 3: 2
+Do you want schedule for a Day, Week (5 days), or Week (6 days)? 1
 
-bash
-Copy
-Edit
-python schedule.py
-Sample Run
-yaml
-Copy
-Edit
-📍 Enter city: Amritsar  
-🌍 Enter country: India  
-🕒 Auto-detected timezone: Asia/Kolkata  
-📅 Enter month (1-12): 8  
+🌞 Avg daylight hours in Amritsar, India (June): -7.47 hrs
 
-✅ Schedules exported to schedules.csv
-📊 Example Outputs
-Console Output
-sql
-Copy
-Edit
-🌞 SunSmart Schedule for Grade 1 in August  
-Average daylight hours: 13.2  
--------------------------------------  
-Day 1: Outdoor, Indoor, Indoor, Outdoor, Indoor, Indoor  
-Day 2: Indoor, Outdoor, Indoor, Indoor, Outdoor, Indoor  
-...
-CSV Output (schedules.csv)
-Grade	Date	Classes
-1	2025-08-01	Outdoor, Indoor, Indoor, Outdoor, Indoor
-2	2025-08-01	Indoor, Outdoor, Indoor, Indoor, Outdoor
-3	2025-08-01	Outdoor, Indoor, Outdoor, Indoor, Indoor
+📅 Final Timetable:
 
+===== Day 1 =====
+Grade 3 - Section 1:
+  Class 1: Outdoor
+  Class 2: Outdoor
+  Class 3: Indoor
+  Class 4: Indoor
+  Class 5: Outdoor
+  Class 6: Indoor
+  Class 7: Indoor
+
+Grade 3 - Section 2:
+  Class 1: Indoor
+  Class 2: Outdoor
+  Class 3: Outdoor
+  Class 4: Indoor
+  Class 5: Outdoor
+  Class 6: Indoor
+  Class 7: Indoor
+
+
+Do you want to save this schedule as a CSV file? (yes/no): yes
+
+✅ Schedule saved to schedule_June.csv
+```
 ✨ Features
 ✅ Location-based sunrise/sunset calculation
 ✅ Balances outdoor vs indoor activities
