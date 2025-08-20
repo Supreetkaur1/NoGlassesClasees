@@ -89,7 +89,7 @@ Max consecutive outdoor classes allowed: 3
 Enter number of sections in Grade 3: 2
 Do you want schedule for a Day, Week (5 days), or Week (6 days)? 1
 
-🌞 Avg daylight hours in Amritsar, India (June): -7.47 hrs
+🌞 Avg daylight hours in Amritsar, India (June): 13.47 hrs
 
 📅 Final Timetable:
 
