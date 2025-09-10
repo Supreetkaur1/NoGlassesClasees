@@ -1,4 +1,5 @@
 # 🌞 NoGlassesClasses - A SunSmart Scheduler  
+Try it here: https://noglassesclasees.streamlit.app/
 
 Optimizing outdoor and indoor school activities using local sunlight data to promote **student health, vision, and productivity**.  
 
