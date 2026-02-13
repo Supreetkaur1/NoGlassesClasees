@@ -33,7 +33,7 @@ def schedule_to_df(schedule: dict, classes_per_day: int) -> pd.DataFrame:
                 rows.append(row)
     return pd.DataFrame(rows)
 
-st.title("📚 NoGlasses Class Scheduler")
+st.title("📚 SharpEYE")
 st.markdown("Generate automated indoor/outdoor timetables for schools.")
 
 with st.form("inputs"):
